@@ -58,5 +58,50 @@
                 "pitch": 1.2
             }
         ]
+    },
+    "entity.arrow.shoot": {
+        "replace": "true",
+        "subtitle": "Tuah!",
+        "sounds": [
+            {
+                "name": "silly/hawk_tuah/tuah"
+            }
+        ]
+    },
+    "entity.arrow.hit": {
+        "replace": "true",
+        "subtitle": "Spit on that thang!",
+        "sounds": [
+            {
+                "name": "silly/hawk_tuah/spit_on_that_thang"
+            }
+        ]
+    },
+    "item.crossbow.loading_end": {
+        "replace": "true",
+        "subtitle": "Hawk",
+        "sounds": [
+            {
+                "name": "silly/hawk_tuah/hawk"
+            }
+        ]
+    },
+    "item.crossbow.shoot": {
+        "replace": "true",
+        "subtitle": "Tuah!",
+        "sounds": [
+            {
+                "name": "silly/hawk_tuah/tuah"
+            }
+        ]
+    },
+    "item.crossbow.hit": {
+        "replace": "true",
+        "subtitle": "Spit on that thang!",
+        "sounds": [
+            {
+                "name": "silly/hawk_tuah/spit_on_that_thang"
+            }
+        ]
     }
 }
