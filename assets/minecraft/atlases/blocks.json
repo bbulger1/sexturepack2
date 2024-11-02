@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "music_disc",
+            "prefix": "music_disc/"
+        }
+    ]
+}

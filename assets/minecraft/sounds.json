@@ -1,19 +1,10 @@
 {
-  "block.mario.break": {
-    "sounds": [{ "name": "custom/mario/break", "pitch": 1.2 }]
-  },
-  "block.mario.place": {
-    "sounds": [{ "name": "custom/mario/place", "pitch": 1.2 }]
-  },
-  "block.mario.fall": {
-    "sounds": [{ "name": "custom/mario/fall", "pitch": 1.2 }]
-  },
   "block.resin.break": {
     "replace": "true",
     "subtitle": "Mario block breaking",
     "sounds": [
       {
-        "name": "block.mario.break",
+        "name": "custom:mario.break",
         "type": "event"
       }
     ]
@@ -23,7 +14,7 @@
     "subtitle": "Mario bump",
     "sounds": [
       {
-        "name": "block.mario.place",
+        "name": "custom:mario.place",
         "type": "event"
       }
     ]
@@ -33,7 +24,7 @@
     "subtitle": "Mario stomp",
     "sounds": [
       {
-        "name": "block.mario.fall",
+        "name": "custom:mario.fall",
         "type": "event"
       }
     ]
@@ -43,7 +34,7 @@
     "subtitle": "Mario block breaking",
     "sounds": [
       {
-        "name": "block.mario.break",
+        "name": "custom:mario.break",
         "type": "event"
       }
     ]
@@ -53,7 +44,7 @@
     "subtitle": "Mario bump",
     "sounds": [
       {
-        "name": "block.mario.place",
+        "name": "custom:mario.place",
         "type": "event"
       }
     ]
@@ -63,7 +54,7 @@
     "subtitle": "Mario stomp",
     "sounds": [
       {
-        "name": "block.mario.fall",
+        "name": "custom:mario.fall",
         "type": "event"
       }
     ]
