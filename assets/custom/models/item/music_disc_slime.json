@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/template_music_disc",
+    "textures": {
+      "layer0": "custom:music_disc/music_disc_slime"
+    }
+  }

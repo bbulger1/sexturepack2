@@ -1,0 +1,15 @@
+{
+  "music_disc.slime": {
+    "sounds": [{ "name": "custom/music_disc/slime" }],
+    "stream": true
+  },
+  "mario.break": {
+    "sounds": [{ "name": "custom/mario/break", "pitch": 1.2 }]
+  },
+  "mario.place": {
+    "sounds": [{ "name": "custom/mario/place", "pitch": 1.2 }]
+  },
+  "mario.fall": {
+    "sounds": [{ "name": "custom/mario/fall", "pitch": 1.2 }]
+  }
+}
