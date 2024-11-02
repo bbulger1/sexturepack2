@@ -1,0 +1,13 @@
+{
+	"pack": {
+		"pack_format": 43,
+		"description": "SEXTUREPACK2"
+	},
+	"language": {
+		"LANG_COUNTRY": {
+			"name": "My Custom Language",
+			"region": "Country/Region name",
+			"bidirectional": false
+		}
+	}
+}
