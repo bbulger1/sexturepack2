@@ -1,0 +1,62 @@
+{
+    "block.resin.break": {
+        "replace": "true",
+        "subtitle": "Mario block breaking",
+        "sounds": [
+            {
+                "name": "block/mario/break",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "block.resin.place": {
+        "replace": "true",
+        "subtitle": "Mario bump",
+        "sounds": [
+            {
+                "name": "block/mario/place",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "block.resin.fall": {
+        "replace": "true",
+        "subtitle": "Mario stomp",
+        "sounds": [
+            {
+                "name": "block/mario/fall",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "block.resin_bricks.break": {
+        "replace": "true",
+        "subtitle": "Mario block breaking",
+        "sounds": [
+            {
+                "name": "block/mario/break",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "block.resin_bricks.place": {
+        "replace": "true",
+        "subtitle": "Mario bump",
+        "sounds": [
+            {
+                "name": "block/mario/place",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "block.resin_bricks.fall": {
+        "replace": "true",
+        "subtitle": "Mario stomp",
+        "sounds": [
+            {
+                "name": "block/mario/fall",
+                "pitch": 1.2
+            }
+        ]
+    }
+}
