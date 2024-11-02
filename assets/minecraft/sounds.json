@@ -1,107 +1,96 @@
 {
-    "block.resin.break": {
-        "replace": "true",
-        "subtitle": "Mario block breaking",
-        "sounds": [
-            {
-                "name": "block/mario/break",
-                "pitch": 1.2
-            }
-        ]
-    },
-    "block.resin.place": {
-        "replace": "true",
-        "subtitle": "Mario bump",
-        "sounds": [
-            {
-                "name": "block/mario/place",
-                "pitch": 1.2
-            }
-        ]
-    },
-    "block.resin.fall": {
-        "replace": "true",
-        "subtitle": "Mario stomp",
-        "sounds": [
-            {
-                "name": "block/mario/fall",
-                "pitch": 1.2
-            }
-        ]
-    },
-    "block.resin_bricks.break": {
-        "replace": "true",
-        "subtitle": "Mario block breaking",
-        "sounds": [
-            {
-                "name": "block/mario/break",
-                "pitch": 1.2
-            }
-        ]
-    },
-    "block.resin_bricks.place": {
-        "replace": "true",
-        "subtitle": "Mario bump",
-        "sounds": [
-            {
-                "name": "block/mario/place",
-                "pitch": 1.2
-            }
-        ]
-    },
-    "block.resin_bricks.fall": {
-        "replace": "true",
-        "subtitle": "Mario stomp",
-        "sounds": [
-            {
-                "name": "block/mario/fall",
-                "pitch": 1.2
-            }
-        ]
-    },
-    "entity.arrow.shoot": {
-        "replace": "true",
-        "subtitle": "Tuah!",
-        "sounds": [
-            {
-                "name": "silly/hawk_tuah/tuah"
-            }
-        ]
-    },
-    "entity.arrow.hit": {
-        "replace": "true",
-        "subtitle": "Spit on that thang!",
-        "sounds": [
-            {
-                "name": "silly/hawk_tuah/spit_on_that_thang"
-            }
-        ]
-    },
-    "item.crossbow.loading_end": {
-        "replace": "true",
-        "subtitle": "Hawk",
-        "sounds": [
-            {
-                "name": "silly/hawk_tuah/hawk"
-            }
-        ]
-    },
-    "item.crossbow.shoot": {
-        "replace": "true",
-        "subtitle": "Tuah!",
-        "sounds": [
-            {
-                "name": "silly/hawk_tuah/tuah"
-            }
-        ]
-    },
-    "item.crossbow.hit": {
-        "replace": "true",
-        "subtitle": "Spit on that thang!",
-        "sounds": [
-            {
-                "name": "silly/hawk_tuah/spit_on_that_thang"
-            }
-        ]
-    }
+  "block.mario.break": {
+    "sounds": [{ "name": "custom/mario/break", "pitch": 1.2 }]
+  },
+  "block.mario.place": {
+    "sounds": [{ "name": "custom/mario/place", "pitch": 1.2 }]
+  },
+  "block.mario.fall": {
+    "sounds": [{ "name": "custom/mario/fall", "pitch": 1.2 }]
+  },
+  "block.resin.break": {
+    "replace": "true",
+    "subtitle": "Mario block breaking",
+    "sounds": [
+      {
+        "name": "block.mario.break",
+        "type": "event"
+      }
+    ]
+  },
+  "block.resin.place": {
+    "replace": "true",
+    "subtitle": "Mario bump",
+    "sounds": [
+      {
+        "name": "block.mario.place",
+        "type": "event"
+      }
+    ]
+  },
+  "block.resin.fall": {
+    "replace": "true",
+    "subtitle": "Mario stomp",
+    "sounds": [
+      {
+        "name": "block.mario.fall",
+        "type": "event"
+      }
+    ]
+  },
+  "block.resin_bricks.break": {
+    "replace": "true",
+    "subtitle": "Mario block breaking",
+    "sounds": [
+      {
+        "name": "block.mario.break",
+        "type": "event"
+      }
+    ]
+  },
+  "block.resin_bricks.place": {
+    "replace": "true",
+    "subtitle": "Mario bump",
+    "sounds": [
+      {
+        "name": "block.mario.place",
+        "type": "event"
+      }
+    ]
+  },
+  "block.resin_bricks.fall": {
+    "replace": "true",
+    "subtitle": "Mario stomp",
+    "sounds": [
+      {
+        "name": "block.mario.fall",
+        "type": "event"
+      }
+    ]
+  },
+  "entity.arrow.shoot": {
+    "replace": "true",
+    "subtitle": "Tuah!",
+    "sounds": ["custom/hawk_tuah/tuah"]
+  },
+  "entity.arrow.hit": {
+    "replace": "true",
+    "subtitle": "Spit on that thang!",
+    "sounds": ["custom/hawk_tuah/spit_on_that_thang"]
+  },
+  "item.crossbow.loading_end": {
+    "replace": "true",
+    "subtitle": "Hawk",
+    "sounds": ["custom/hawk_tuah/hawk"]
+  },
+  "item.crossbow.shoot": {
+    "replace": "true",
+    "subtitle": "Tuah!",
+    "sounds": ["custom/hawk_tuah/tuah"]
+  },
+  "item.crossbow.hit": {
+    "replace": "true",
+    "subtitle": "Spit on that thang!",
+    "sounds": ["custom/hawk_tuah/spit_on_that_thang"]
+  }
 }
